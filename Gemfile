@@ -77,3 +77,5 @@ end
 gem 'rubocop', '~> 1.45'
 
 gem 'devise'
+
+gem 'devise-tailwindcssed'
