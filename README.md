@@ -68,7 +68,7 @@
 - **[Edit Category]**
 - **[Create Transaction for the category]**
 - **[Edit Transaction for the category]**
-- **[See the expense spent on each category]**
+- **[See the total expense spent on each category]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
