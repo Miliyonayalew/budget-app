@@ -1,9 +1,10 @@
-<div class="w-full max-w-xs">
+<div class="flex flex-col items-center justify-center h-screen">
     <h1 class="font-hairline mb-6 text-center">Resend Confirmation Instructions</h1>
 
     <%= form_for(resource,
                  as: resource_name,
                  url: confirmation_path(resource_name),
+                 data: { turbo: false },
                  html: {
                          method: :post,
                          class: "bg-white mb-4 px-8 pt-6 pb-8 rounded shadow-md"
@@ -30,6 +31,4 @@
 
         <%= render "devise/shared/links" %>
     <% end %>
-
-    <%= render "devise/shared/form_footer" %>
 </div>
