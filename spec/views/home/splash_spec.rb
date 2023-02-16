@@ -7,7 +7,7 @@ RSpec.describe 'Login', type: :system, js: true do
     end
 
     it 'It should display the name of the app' do
-      expect(page).to have_content('Allocate')
+      expect(page).to have_content('Budget App')
     end
 
     it 'It should display the login button' do
